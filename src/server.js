@@ -1,6 +1,7 @@
 //Importe Librerias
 import cloudinary from 'cloudinary';
 import fileUpload from 'express-fileupload'
+import dotenv from 'dotenv'
 import express from 'express'
 
 //Requerir Rutas
