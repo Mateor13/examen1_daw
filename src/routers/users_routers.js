@@ -8,7 +8,7 @@ router.post('/users/register', registerUserController);
 router.post('/users/login', loginUserController); 
 
 //Rutas privadas: usuarios
-router.get('/users', verifyToken, allUsersController); 
+router.get('/users', allUsersController); 
 router.get('/users/:id', verifyToken, oneUserController); 
 router.patch('/users/:id', verifyToken, updateUserController);
 router.delete('/users/:id', verifyToken, deleteUserController); 
